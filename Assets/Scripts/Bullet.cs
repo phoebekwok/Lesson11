@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour {
 
-    public float velX;
+    public float velX = 0f;
     private float velY = 0f;
     private Rigidbody2D rb;
 
